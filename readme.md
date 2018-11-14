@@ -10,4 +10,4 @@
 * webpack, webpack dev-server, webpack polyfill
 * 3rd parties librarys: moment, uuid
 
-[DEMO](https://webdesigned-hangman.netlify.com/)
+[DEMO](https://webdesigned-notes-app.netlify.com/)
