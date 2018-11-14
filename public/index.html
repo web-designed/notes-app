@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="styles/styles.css">
+      <title>NOTES App</title>
+   </head>
+   <body>
+      <div class="header">
+         <div class="container">
+            <h1 class="header__title">The notes App</h1>
+            <h2 class="header__subtitle">Take notes and never forget</h2>
+         </div>
+      </div>
+      <div class="actions">
+         <div class="actions__container actions__container--spaced">
+            <input id="search" type="text" placeholder="filter" class="input">
+            <select name="" id="sort" class="dropdown">
+               <option value="byEdited">sort by last edited</option>
+               <option value="byCreated">sort by last created</option>
+               <option value="alphabetical">sort by A-Z</option>
+            </select>
+            <select name="" id="order" class="dropdown">
+               <option value="desc">DESC</option>
+               <option value="asc">ASC</option>
+            </select>
+         </div>
+      </div>
+      
+      <div class="container">
+         <div id="notes"></div>
+         <button id="add" class="button">Create note</button>
+      </div>
+
+      <script src="/scripts/index-bundle.js"></script>
+      <!-- <script src="scripts/uuid.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
+      <script src="scripts/notes-functions.js"></script>
+      <script src="scripts/notes-app.js"></script> -->
+   </body>
+</html>
